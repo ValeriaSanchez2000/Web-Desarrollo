@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Desarrollo Front-End</title>
+    <style>
+        table, th, td {
+            border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+    <h1 id="título">¿Qué es el Desarrollo Front-End?</h1>
+    <p>El Desarrollo Front-End es la <b>creación de la interfaz gráfica</b> de un sitio web o aplicación. 
+        <br>
+        Se encarga de estructurar los datos que se visualizan en la pantalla con el fin de optimizar la experiencia del usuario. 
+        <br>
+        Define la jerarquía y la distribución de los mismos: <i>textos, imágenes, gráficos, videos, colores, márgenes, botones, etc.</i> </p>
+        <a target="_blank" href="https://es.wikipedia.org/wiki/Desarrollo_web_Front-end">Para más información...</a> <br>
+        <a href="#formulario">Ir al formulario</a> <br>
+        <a href="juegos.html">Ir a la sección juegos</a>
+        <br> <br>
+        <!--hola esto es un comentario-->
+        <img src="front-end.png" width="700"/>
+        <img src="Homero.gif" width="350"/>
+        <img src="Dados.png" width="400"/>
+<br> <br>
+<table style="width: 500px;">
+        <tr>
+            <th>Producto <br> <img src="front-end.png" width="100"/></th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Computadora</td>
+            <td>$1.100.000</td>
+        </tr>
+        <tr>
+            <td>Celular</td>
+            <td>$450.000</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Total: $1.550.000</td>
+        </tr>
+</table>
+<br> <br>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li> Existen diferentes sub elementos:
+            <ol>
+                <li style="list-style-type:lower-alpha">sub elemento</li>
+                <li style="list-style-type:lower-alpha">sub elemento</li>
+                <li style="list-style-type:lower-alpha">sub elemento</li>
+                <li style="list-style-type:lower-alpha">sub elemento</li>
+            </ol>
+        </li>
+    </ol>
+
+
+<h2 id="formulario">Formulario</h2>
+<form action="/formulario" method="POST">
+    <label>Nombre</label>
+    <input name="Nombre" placeholder="Nombre"/>
+    <br> <br>
+    <label>Apellido</label>
+    <input name="Apellido" placeholder="Apellido"/>
+    <br> <br>
+    <label>Correo electrónico</label>
+    <input type="email" name="Correo electrónico" placeholder="Correo electrónico"/>
+    <br> <br>
+    <label>Contraseña <span style="color:red">(obligatorio)</span></label>
+    <input type="Password" name="Contraseña" placeholder="Contraseña" required/>
+    <br> <br>
+    <label>Color favorito</label>
+    <input type="color" name="Color favorito"/>
+    <br> <br>
+    <label>Ciudad</label>
+    <select name="Ciudad">
+    <option>Presidencia Roque Sáenz Peña</option>
+    <option>Avia Terai</option>
+    <option>Campo Largo</option>
+    <option>Las Breñas</option>
+    </select>
+    <br> <br>
+    <label>Género</label> <br>
+    <input type="radio" name="Género Masculino"/>Masculino
+    <input type="radio" name="Género Femenino"/>Femenino
+    <br> <br>
+    <label>Fecha de Nacimiento</label>
+    <input type="date" name="Fecha de Nacimiento"/> <br> <br>
+    <label>Hora</label>
+    <input type="time" name="Hora"/> <br> <br>
+    <label>Nivel de estudios</label> <br>
+    <input type="checkbox" name="Primario"/>Nivel de estudios: Primario <br>
+    <input type="checkbox" name="Secundario"/>Nivel de estudios: Secundario <br>
+    <input type="checkbox" name="Terciario"/>Nivel de estudios: Terciario <br>
+    <input type="checkbox" name="Universitario"/>Nivel de estudios: Universitario <br>
+    <br>
+    <label>Insertar Curriculum</label> <br>
+    <input type="file" name="Insertar Curriculum"/>
+    <br> <br>
+    <label>Comentario</label>
+    <br>
+    <textarea cols="50" rows="10" placeholder="Ingresar comentario" name="Comentario"></textarea>
+    <br>
+    <button type="reset">Reestablecer</button>
+    <button type="submit">Enviar formulario</button>
+</form>
+<br> <br>
+<a href="#título">Ir al comienzo</a>
+<br> <br>
+<video width="500px" controls>
+    <source src="atardecer.mp4"/>
+</video>
+<br> <br>
+<audio controls>
+<source src="audio.mp3"/>
+</audio>
+
+
+</body>
+
+
+
+
+</html>
